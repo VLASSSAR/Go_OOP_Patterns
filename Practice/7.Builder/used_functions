@@ -1,0 +1,21 @@
+Как должна работать программа:
+
+collector1 := GetCollector(brand1)
+
+collector2 := GetCollector(brand2)
+
+
+factory := NewFactory(collector)
+
+computer := factory.CreateComputer()
+computer.Print()
+
+________________________________________________________________________
+Если захотим поменять collector у factory:
+
+factory.SetCollector(collector2)
+
+computer := factory.CreateComputer()
+computer.Print()
+
+
