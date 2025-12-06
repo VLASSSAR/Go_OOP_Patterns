@@ -1,6 +1,8 @@
 package main
 
-import "Componovshik/pkg"
+import (
+	"1.Componovshik/pkg"
+)
 
 var (
 	cpu = pkg.Cpu{

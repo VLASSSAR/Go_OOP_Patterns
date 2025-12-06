@@ -14,7 +14,7 @@ func NewSingleton(item *Singleton, typeName string) *Singleton {
 	if item == nil {
 		return &Singleton{typeName} //инициализиурем объект
 	}
-	fmt.Printf("Type %s - уже создан!\n", item.Type)
+	fmt.Printf("Type %s - уже создан! %p\n", item.Type, item)
 	return item
 
 }
